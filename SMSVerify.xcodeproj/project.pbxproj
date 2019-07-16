@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1495DD8F482D598BCD321DC6 /* libPods-SMSVerify.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A942A933CC287699343E75 /* libPods-SMSVerify.a */; };
+		C1FB6CBD1E8BB19B00EE0031 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FB6CBC1E8BB19B00EE0031 /* main.m */; };
+		C1FB6CC01E8BB19B00EE0031 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FB6CBF1E8BB19B00EE0031 /* AppDelegate.m */; };
+		C1FB6CC31E8BB19B00EE0031 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FB6CC21E8BB19B00EE0031 /* ViewController.m */; };
+		C1FB6CC61E8BB19B00EE0031 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1FB6CC41E8BB19B00EE0031 /* Main.storyboard */; };
+		C1FB6CC81E8BB19B00EE0031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1FB6CC71E8BB19B00EE0031 /* Assets.xcassets */; };
+		C1FB6CCB1E8BB19B00EE0031 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1FB6CC91E8BB19B00EE0031 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8639655C2567F5F51F26E950 /* Pods-SMSVerify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMSVerify.release.xcconfig"; path = "Pods/Target Support Files/Pods-SMSVerify/Pods-SMSVerify.release.xcconfig"; sourceTree = "<group>"; };
+		AC080CBA0F5DD8480016C543 /* Pods-SMSVerify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMSVerify.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SMSVerify/Pods-SMSVerify.debug.xcconfig"; sourceTree = "<group>"; };
+		B5A942A933CC287699343E75 /* libPods-SMSVerify.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SMSVerify.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1FB6CB81E8BB19B00EE0031 /* SMSVerify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMSVerify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1FB6CBC1E8BB19B00EE0031 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1FB6CBE1E8BB19B00EE0031 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C1FB6CBF1E8BB19B00EE0031 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C1FB6CC11E8BB19B00EE0031 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C1FB6CC21E8BB19B00EE0031 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C1FB6CC51E8BB19B00EE0031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1FB6CC71E8BB19B00EE0031 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1FB6CCA1E8BB19B00EE0031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1FB6CCC1E8BB19B00EE0031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1FB6CB51E8BB19B00EE0031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1495DD8F482D598BCD321DC6 /* libPods-SMSVerify.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23D60BE026951EBD1F643994 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC080CBA0F5DD8480016C543 /* Pods-SMSVerify.debug.xcconfig */,
+				8639655C2567F5F51F26E950 /* Pods-SMSVerify.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4D9472BDCCB51480AE214618 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5A942A933CC287699343E75 /* libPods-SMSVerify.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1FB6CAF1E8BB19B00EE0031 = {
+			isa = PBXGroup;
+			children = (
+				C1FB6CBA1E8BB19B00EE0031 /* SMSVerify */,
+				C1FB6CB91E8BB19B00EE0031 /* Products */,
+				23D60BE026951EBD1F643994 /* Pods */,
+				4D9472BDCCB51480AE214618 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C1FB6CB91E8BB19B00EE0031 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1FB6CB81E8BB19B00EE0031 /* SMSVerify.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1FB6CBA1E8BB19B00EE0031 /* SMSVerify */ = {
+			isa = PBXGroup;
+			children = (
+				C1FB6CBE1E8BB19B00EE0031 /* AppDelegate.h */,
+				C1FB6CBF1E8BB19B00EE0031 /* AppDelegate.m */,
+				C1FB6CC11E8BB19B00EE0031 /* ViewController.h */,
+				C1FB6CC21E8BB19B00EE0031 /* ViewController.m */,
+				C1FB6CBB1E8BB19B00EE0031 /* Supporting Files */,
+			);
+			path = SMSVerify;
+			sourceTree = "<group>";
+		};
+		C1FB6CBB1E8BB19B00EE0031 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1FB6CC41E8BB19B00EE0031 /* Main.storyboard */,
+				C1FB6CC71E8BB19B00EE0031 /* Assets.xcassets */,
+				C1FB6CC91E8BB19B00EE0031 /* LaunchScreen.storyboard */,
+				C1FB6CCC1E8BB19B00EE0031 /* Info.plist */,
+				C1FB6CBC1E8BB19B00EE0031 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1FB6CB71E8BB19B00EE0031 /* SMSVerify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1FB6CCF1E8BB19B00EE0031 /* Build configuration list for PBXNativeTarget "SMSVerify" */;
+			buildPhases = (
+				A56C5D2F05BAA1567E2BFCBE /* [CP] Check Pods Manifest.lock */,
+				C1FB6CB41E8BB19B00EE0031 /* Sources */,
+				C1FB6CB51E8BB19B00EE0031 /* Frameworks */,
+				C1FB6CB61E8BB19B00EE0031 /* Resources */,
+				1B48596D706DF8B3B3CE06F2 /* [CP] Embed Pods Frameworks */,
+				CC3F9612BF104C1A5E6678C9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMSVerify;
+			productName = SMSVerify;
+			productReference = C1FB6CB81E8BB19B00EE0031 /* SMSVerify.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1FB6CB01E8BB19B00EE0031 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "大碗豆";
+				TargetAttributes = {
+					C1FB6CB71E8BB19B00EE0031 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4M79749WR3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C1FB6CB31E8BB19B00EE0031 /* Build configuration list for PBXProject "SMSVerify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = C1FB6CAF1E8BB19B00EE0031;
+			productRefGroup = C1FB6CB91E8BB19B00EE0031 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1FB6CB71E8BB19B00EE0031 /* SMSVerify */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1FB6CB61E8BB19B00EE0031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1FB6CCB1E8BB19B00EE0031 /* LaunchScreen.storyboard in Resources */,
+				C1FB6CC81E8BB19B00EE0031 /* Assets.xcassets in Resources */,
+				C1FB6CC61E8BB19B00EE0031 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B48596D706DF8B3B3CE06F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SMSVerify/Pods-SMSVerify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A56C5D2F05BAA1567E2BFCBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CC3F9612BF104C1A5E6678C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SMSVerify/Pods-SMSVerify-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1FB6CB41E8BB19B00EE0031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1FB6CC31E8BB19B00EE0031 /* ViewController.m in Sources */,
+				C1FB6CC01E8BB19B00EE0031 /* AppDelegate.m in Sources */,
+				C1FB6CBD1E8BB19B00EE0031 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C1FB6CC41E8BB19B00EE0031 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1FB6CC51E8BB19B00EE0031 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1FB6CC91E8BB19B00EE0031 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1FB6CCA1E8BB19B00EE0031 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1FB6CCD1E8BB19B00EE0031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1FB6CCE1E8BB19B00EE0031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1FB6CD01E8BB19B00EE0031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC080CBA0F5DD8480016C543 /* Pods-SMSVerify.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4M79749WR3;
+				INFOPLIST_FILE = SMSVerify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.any.SMSVerify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C1FB6CD11E8BB19B00EE0031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8639655C2567F5F51F26E950 /* Pods-SMSVerify.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4M79749WR3;
+				INFOPLIST_FILE = SMSVerify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.any.SMSVerify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1FB6CB31E8BB19B00EE0031 /* Build configuration list for PBXProject "SMSVerify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1FB6CCD1E8BB19B00EE0031 /* Debug */,
+				C1FB6CCE1E8BB19B00EE0031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1FB6CCF1E8BB19B00EE0031 /* Build configuration list for PBXNativeTarget "SMSVerify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1FB6CD01E8BB19B00EE0031 /* Debug */,
+				C1FB6CD11E8BB19B00EE0031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1FB6CB01E8BB19B00EE0031 /* Project object */;
+}
